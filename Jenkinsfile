@@ -5,8 +5,8 @@ pipeline {
         DOCKER_CREDS_ID = 'docker-cred'
         DOCKER_HUB_USER = '2023bcs0005anush'
 
-        REGISTER = '2023_Batch_2'
-        ROLL = '2023BCS0005'
+        REGISTER = '2023_batch_2'
+        ROLL = '2023bcs0005'
 
         FRONTEND_IMAGE = "${DOCKER_HUB_USER}/${REGISTER}_${ROLL}_frontend"
         BACKEND_IMAGE  = "${DOCKER_HUB_USER}/${REGISTER}_${ROLL}_backend"
