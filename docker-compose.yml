@@ -3,16 +3,14 @@ version: "3.9"
 services:
 
   backend:
-    build: ./backend
-    image: anush_2023bcs0005_backend
-    container_name: backend_anush_2023BCS0005
+    image: 2023_Batch_2_2023bcs0005_backend
+    container_name: backend_2023BCS0005
     ports:
       - "8082:5000"
 
   frontend:
-    build: ./frontend
-    image: anush_2023bcs0005_frontend
-    container_name: frontend_anush_2023BCS0005
+    image: 2023_Batch_2_2023bcs0005_frontend
+    container_name: frontend_2023BCS0005
     ports:
       - "8081:80"
     depends_on:
