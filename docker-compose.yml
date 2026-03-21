@@ -12,6 +12,6 @@ services:
     image: 2023bcs0005anush/2023_batch_2_2023bcs0005_frontend
     container_name: frontend_anush_2023BCS0005
     ports:
-      - "8081:80"
+      - "80:80"
     depends_on:
       - backend
