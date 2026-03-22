@@ -1,9 +1,7 @@
 
 // Anush Bundel 2023BCS0005
 
-const isLocal = window.location.port === "" || window.location.port === "5000";
-
-const API_URL = isLocal
+const API_URL = window.location.hostname === "localhost"
   ? "http://localhost:5000"
   : `${window.location.protocol}//${window.location.hostname}:8082`;
 
